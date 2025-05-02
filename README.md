@@ -1,14 +1,16 @@
 # Computational Theory - Ross Hannon G00381859
 
 This repository contains work completed for the **Computational Theory** module as part of a fourth-year Software Development assessment at ATU Galway. All tasks are implemented and explained within a Jupyter Notebook.
+---
 
 ## Table of Contents
-- [Aim](#aim)
+- [Introduction](#introduction)
 - [Tasks Overview](#tasks-overview)
 - [Running the Jupyter Notebook](#running-the-jupyter-notebook)
 - [Contact](#contact)
 
-## Aim
+## Introduction
+---  
 
 This notebook demonstrates and explores foundational concepts in computational theory:
 
@@ -25,6 +27,7 @@ Each task includes:
 - ✔️ Output and validation
 
 ## Tasks Overview
+---
 
 ### Task 1: Binary Representations
 
@@ -99,20 +102,18 @@ Counts and summarizes comparisons.
 Outputs worst/best case examples.
 
 ### **AI Used**
+---
 | Tool | Purpose | Link |
 |------|----------|------|
 | GitHub Copilot | Used for code, pattern matching, and Python suggestions  | [GitHub Copilot](https://github.com/features/copilot) |
 | ChatGPT | Helped with code structure, debugging, and enhancing conversation patterns | [ChatGPT](https://openai.com/chatgpt) |
-
-Contact
-Ross Hannon 📧 G00381859@atu.ie
 
 ## Running the Jupyter Notebook
 
 To run the project locally:
 
 ```bash
-git clone https://github.com/YourUsername/ComputationalTheory
+git clone https://github.com/rosshannon7677/ComputationalTheory
 
 pip install notebook
 
@@ -120,3 +121,7 @@ cd ComputationalTheory
 
 jupyter notebook
 ```
+---
+
+## Contact
+Ross Hannon G00381859@atu.ie
