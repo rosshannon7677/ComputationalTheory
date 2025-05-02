@@ -26,6 +26,13 @@ Each task includes:
 - ✔️ Explanation in plain English
 - ✔️ Output and validation
 
+## Repository Structure
+---
+
+* **tasks.ipynb**: Contains the Jupyter notebook with all 8 computational theory tasks
+* **README.md**: This documentation file with project overview and instructions
+* **test.txt**: Input file used for SHA-256 padding demonstration in Task 3
+
 ## Tasks Overview
 ---
 
@@ -48,92 +55,25 @@ Each task includes:
 | GitHub Copilot | Used for code, pattern matching, and Python suggestions  | [GitHub Copilot](https://github.com/features/copilot) |
 | ChatGPT | Helped with code structure, debugging, and enhancing conversation patterns | [ChatGPT](https://openai.com/chatgpt) |
 
-## Running the Jupyter Notebook
+## Instructions to run Jupyter Notebook
+1. **Clone the Repository**: Clone this repository using the following command:
 
-To run the project locally:
-
-```bash
-git clone https://github.com/rosshannon7677/ComputationalTheory
-
-pip install notebook
-
-cd ComputationalTheory
-
-jupyter notebook
-```
+   ```bash
+   git clone https://github.com/rosshannon7677/ComputationalTheory
+   ```
+2. **Navigate to Project Directory** 
+    ```bash
+    cd ComputationalTheory
+    ```
+3. **Install Dependencies** 
+    ```bash
+    pip install notebook numpy matplotlib
+    ```
+4. **Launch Jupyter Notebook** 
+    ```bash
+    jupyter notebook
+    ```
 ---
 
 ## Contact
 For any questions or clarifications, feel free to contact me at G00381859@atu.ie.com.
-
-### Task 1: Binary Representations
-
-Implements low-level bit operations:
-
-- **rotl(x, n)**: Left bit rotation
-- **rotr(x, n)**: Right bit rotation
-- **ch(x, y, z)**: Bitwise choice logic
-- **maj(x, y, z)**: Bitwise majority logic
-
-Commonly used in cryptographic hashing like SHA-256.
-
-### Task 2: Hash Functions
-
-Converts a C-style hash function to Python.
-
-Explains use of constants **31** and **101** in hashing.
-
-Demonstrates step-by-step string-to-hash conversion.
-
-### Task 3: SHA-256 Padding
-
-Simulates SHA-256 message padding by:
-
-- Appending a **1** bit (`0x80`)
-- Padding with `0x00` until **448 mod 512**
-- Adding original message length (**64-bit big-endian**)
-
-### Task 4: Prime Numbers
-
-Calculates first 100 prime numbers using two methods:
-
-- **Trial Division** (simple, slower)
-- **Sieve of Eratosthenes** (faster, memory-intensive)
-
-Includes comparison table of both approaches.
-
-### Task 5: Roots
-
-Computes the square roots of the first 100 primes.
-
-Extracts the fractional part and converts to **32-bit binary**.
-
-Used in cryptographic algorithms (e.g. SHA constants).
-
-Based on principles from **Wikipedia – SHA-2 Constants**
-
-### Task 6: Proof of Work
-
-Uses SHA-256 to hash dictionary words.
-
-Identifies words with most leading 0 bits in hash.
-
-Validates against standard dictionaries (e.g. `/usr/share/dict/words`).
-
-### Task 7: Turing Machine
-
-Simulates a Turing Machine that adds **1** to binary input.
-
-Implements carry logic and halting conditions.
-
-Shows real output and state transitions.
-
-### Task 8: Computational Complexity
-
-Implements **Bubble Sort**.
-
-Applies it to all permutations of `[1, 2, 3, 4, 5]`.
-
-Counts and summarizes comparisons.
-
-Outputs worst/best case examples.
