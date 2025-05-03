@@ -79,4 +79,4 @@ Each task includes:
 ---
 
 ## Contact
-For any questions or clarifications, feel free to contact me at G00381859@atu.com
+For any questions or clarifications, feel free to contact me at G00381859@atu.ie
