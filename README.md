@@ -33,6 +33,8 @@ Each task includes:
 * **tasks.ipynb**: Contains the Jupyter notebook with all 8 computational theory tasks
 * **README.md**: This documentation file with project overview and instructions
 * **test.txt**: Input file used for SHA-256 padding demonstration in Task 3
+* **words.txt**: Dictionary file with English words used for the proof of work task
+* **requirements.txt**: Lists all dependencies needed to run the notebook
 
 ## Tasks Overview
 ---
