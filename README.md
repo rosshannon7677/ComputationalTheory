@@ -70,7 +70,7 @@ Each task includes:
     ```
 3. **Install Dependencies** 
     ```bash
-    pip install notebook numpy matplotlib
+    pip install -r requirements.txt
     ```
 4. **Launch Jupyter Notebook** 
     ```bash
